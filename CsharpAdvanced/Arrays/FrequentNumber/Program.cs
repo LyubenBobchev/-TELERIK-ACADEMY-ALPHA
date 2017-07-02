@@ -12,8 +12,8 @@ namespace FrequentNumber
         {
             int arraySize = int.Parse(Console.ReadLine());
             int[] array = new int[arraySize];
-            
-            int numCounter = 1;
+            int repeatingNum = 0;
+            int numCounter = 0;
             int maxCounter = 0;
 
             for (int i = 0; i < array.Length; i++)
@@ -23,22 +23,18 @@ namespace FrequentNumber
 
             }
 
-            int repeatingNum = array[0];
-
-            for (int k = 1; k < array.Length; k++)
+            for (int k = 0; k < array.Length; k++)
             {
 
-                if (array[k] == array[k - 1])
+                for (int x = 0; x < array.Length; x++)
                 {
 
-                    numCounter++;
+                    if (array[k] == array[x])
+                    {
 
-                }
+                        numCounter++;
 
-                if (array[k] == repeatingNum)
-                {
-
-                    numCounter++;
+                    }
 
                 }
 
@@ -47,9 +43,14 @@ namespace FrequentNumber
 
                     maxCounter = numCounter;
                     repeatingNum = array[k];
+                    
 
                 }
+
+                numCounter = 0;
             }
+
+
 
             Console.WriteLine("{0} ({1} times)", repeatingNum, maxCounter);
         }
