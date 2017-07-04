@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceInMatrix", "SequenceInMatrix\SequenceInMatrix.csproj", "{EE2C426D-DBD1-4C83-B539-F867B41DAB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "LargestAreaInMatri\LargestAreaInMatrix.csproj", "{939160D4-89D2-424B-8B38-DF45447BA768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2C426D-DBD1-4C83-B539-F867B41DAB56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2C426D-DBD1-4C83-B539-F867B41DAB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2C426D-DBD1-4C83-B539-F867B41DAB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2C426D-DBD1-4C83-B539-F867B41DAB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939160D4-89D2-424B-8B38-DF45447BA768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939160D4-89D2-424B-8B38-DF45447BA768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939160D4-89D2-424B-8B38-DF45447BA768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939160D4-89D2-424B-8B38-DF45447BA768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
