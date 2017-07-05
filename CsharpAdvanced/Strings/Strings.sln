@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorrectBrackets", "CorrectBrackets\CorrectBrackets.csproj", "{0BD1E727-AB65-43D4-9D78-AC6FB36FCFD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstringInText", "SubstringInText\SubstringInText.csproj", "{F1CD75D7-EBE9-40BB-B053-50407EBFADDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseTags", "ParseTags\ParseTags.csproj", "{07E665E0-932E-421A-91A9-B1524D824D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0BD1E727-AB65-43D4-9D78-AC6FB36FCFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BD1E727-AB65-43D4-9D78-AC6FB36FCFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BD1E727-AB65-43D4-9D78-AC6FB36FCFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1CD75D7-EBE9-40BB-B053-50407EBFADDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1CD75D7-EBE9-40BB-B053-50407EBFADDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1CD75D7-EBE9-40BB-B053-50407EBFADDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1CD75D7-EBE9-40BB-B053-50407EBFADDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E665E0-932E-421A-91A9-B1524D824D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E665E0-932E-421A-91A9-B1524D824D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E665E0-932E-421A-91A9-B1524D824D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E665E0-932E-421A-91A9-B1524D824D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
