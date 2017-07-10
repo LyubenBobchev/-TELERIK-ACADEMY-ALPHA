@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PrimeNumbers")]
+[assembly: AssemblyTitle("ConcatenateTextFiles")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PrimeNumbers")]
+[assembly: AssemblyProduct("ConcatenateTextFiles")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,11 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-<<<<<<< HEAD
-[assembly: Guid("8f2251c1-62a6-408e-ae90-a75cb3c726b5")]
-=======
-[assembly: Guid("9f415840-f415-49a0-9b2e-7a88382777e9")]
->>>>>>> 54038acf37c0f6809eece73a4036cb955dc2ed9a
+[assembly: Guid("be450be8-df39-4b8b-a271-a8a55fc5149b")]
 
 // Version information for an assembly consists of the following four values:
 //

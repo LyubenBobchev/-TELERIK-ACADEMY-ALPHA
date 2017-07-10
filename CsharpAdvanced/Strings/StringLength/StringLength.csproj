@@ -4,35 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
-    <ProjectGuid>{8F2251C1-62A6-408E-AE90-A75CB3C726B5}</ProjectGuid>
-=======
-    <ProjectGuid>{9F415840-F415-49A0-9B2E-7A88382777E9}</ProjectGuid>
->>>>>>> 54038acf37c0f6809eece73a4036cb955dc2ed9a
+    <ProjectGuid>{E8404EF6-FEA3-40C9-8C3F-5E39F7B648C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PrimeNumbers</RootNamespace>
-    <AssemblyName>PrimeNumbers</AssemblyName>
+    <RootNamespace>StringLength</RootNamespace>
+    <AssemblyName>StringLength</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-<<<<<<< HEAD
-=======
-    <PublishUrl>publish\</PublishUrl>
-    <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
-    <UpdateMode>Foreground</UpdateMode>
-    <UpdateInterval>7</UpdateInterval>
-    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>false</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <UseApplicationTrust>false</UseApplicationTrust>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
->>>>>>> 54038acf37c0f6809eece73a4036cb955dc2ed9a
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,10 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-<<<<<<< HEAD
-=======
-    <Reference Include="System.Numerics" />
->>>>>>> 54038acf37c0f6809eece73a4036cb955dc2ed9a
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,20 +48,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
-=======
-  <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
->>>>>>> 54038acf37c0f6809eece73a4036cb955dc2ed9a
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
