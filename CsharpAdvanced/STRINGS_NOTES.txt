@@ -1,0 +1,18 @@
+Characteristics:
+
+Strings are :
+
+- are immutable 
+
+- are a reference type data
+
+- sequence of characters (Unicode symbols)
+
+
+
+
+Off Topic.
+
+small-letter word used for some classes(String, Int32, Int64 Boolean)string, int, bool are called alieses.
+
+"sealed" classes cannot be inherited.
