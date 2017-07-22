@@ -21,7 +21,8 @@ namespace SequenceInMatrix
 
 
         }
-        static void FillMatrix(string[,] matrix, int matrixRows, int matrixCols)
+
+        static void FillMatrix(string[ , ] matrix, int matrixRows, int matrixCols)
         {
             for (int row = 0; row < matrixRows; row++)
             {

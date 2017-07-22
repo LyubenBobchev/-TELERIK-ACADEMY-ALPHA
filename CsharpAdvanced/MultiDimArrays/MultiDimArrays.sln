@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceInMatrix", "Sequenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestAreaInMatrix", "LargestAreaInMatri\LargestAreaInMatrix.csproj", "{939160D4-89D2-424B-8B38-DF45447BA768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillTheMatrix", "FillTheMatrix\FillTheMatrix.csproj", "{D43CA390-44E6-41C0-9AC5-26F99383B4DF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.vbproj", "{47E57016-0826-48BC-8541-F1AF697EBF51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{939160D4-89D2-424B-8B38-DF45447BA768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939160D4-89D2-424B-8B38-DF45447BA768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939160D4-89D2-424B-8B38-DF45447BA768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43CA390-44E6-41C0-9AC5-26F99383B4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43CA390-44E6-41C0-9AC5-26F99383B4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43CA390-44E6-41C0-9AC5-26F99383B4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43CA390-44E6-41C0-9AC5-26F99383B4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E57016-0826-48BC-8541-F1AF697EBF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E57016-0826-48BC-8541-F1AF697EBF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E57016-0826-48BC-8541-F1AF697EBF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E57016-0826-48BC-8541-F1AF697EBF51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

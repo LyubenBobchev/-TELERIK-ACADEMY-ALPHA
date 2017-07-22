@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PrimeNumbers")]
+[assembly: AssemblyTitle("FillTheMatrix")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PrimeNumbers")]
+[assembly: AssemblyProduct("FillTheMatrix")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9f415840-f415-49a0-9b2e-7a88382777e9")]
+[assembly: Guid("d43ca390-44e6-41c0-9ac5-26f99383b4df")]
 
 // Version information for an assembly consists of the following four values:
 //
