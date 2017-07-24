@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPPrinciplesPart1
+namespace Problem1
 {
     class Student : Person
     {
-        public Student(int age, string name, string sex, long uniqueClassNumber): base(age, name, sex)
+        public Student(int age, string name, string sex, long uniqueClassNumber) : base(age, name, sex)
         {
             this.UniqueClassNumber = uniqueClassNumber;
         }

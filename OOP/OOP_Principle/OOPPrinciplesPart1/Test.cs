@@ -13,7 +13,7 @@ namespace OOPPrinciplesPart1
             Student student = new Student(24, "Pesho", "Male");
             Teacher teacher = new Teacher(59, "Stanka", "Female");
 
-            student.UniqueClassMember
+            
             
         }
     }

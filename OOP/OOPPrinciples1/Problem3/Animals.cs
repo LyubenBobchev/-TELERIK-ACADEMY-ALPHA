@@ -4,25 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPPrinciplesPart1
+namespace Problem3
 {
-    class Person
+    public class Animals
     {
-        public Person(int age, string name, string sex)
+        public Animals(int age, string name, string sex)
         {
             this.Age = age;
             this.Name = name;
             this.Sex = sex;
         }
-
         public int Age { get; set; }
         public string Name { get; set; }
         public string Sex { get; set; }
-
-        public string AddComment(string comment)
-        {
-
-            return string.Format("Comment : {0}", comment);
-        }
     }
 }
