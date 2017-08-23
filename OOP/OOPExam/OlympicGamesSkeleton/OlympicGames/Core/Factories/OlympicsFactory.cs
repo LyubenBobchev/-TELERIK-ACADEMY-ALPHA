@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using OlympicGames.Core.Contracts;
 using OlympicGames.Olympics.Contracts;
@@ -24,7 +25,7 @@ namespace OlympicGames.Core.Factories
 
         public IOlympian CreateBoxer(string firstName, string lastName, string country, string category, int wins, int losses)
         {
-            BoxingCategory boxingCategory = (BoxingCategory)Enum.Parse(typeof(BoxingCategory),category.ToLower());
+            BoxingCategory boxingCategory = (BoxingCategory)Enum.Parse(typeof(BoxingCategory),category,true);
 
             return new Boxer(firstName, lastName, country , boxingCategory, wins, losses);
         }

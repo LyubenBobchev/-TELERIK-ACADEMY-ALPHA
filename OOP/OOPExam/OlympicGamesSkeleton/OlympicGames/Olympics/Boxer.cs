@@ -9,58 +9,17 @@ using System.Threading.Tasks;
 
 namespace OlympicGames.Olympics
 {
-    public class Boxer : IBoxer, IOlympian
+    public class Boxer : Olympian, IBoxer, IOlympian
     {
-        private readonly string firstName;
-        private readonly string lastName;
-        private string country;
         private BoxingCategory category;
         private int wins;
         private int losses;
 
-        public Boxer(string firstName, string lastName, string country, BoxingCategory category, int wins, int losses)
+        public Boxer(string firstName, string lastName, string country, BoxingCategory category, int wins, int losses) : base(firstName, lastName, country)
         {
-            Validator.ValidateMinAndMaxLength(firstName, 2, 20, null);
-            this.firstName = firstName;
-
-            Validator.ValidateMinAndMaxLength(lastName, 2, 20, null);
-            this.lastName = lastName;
-
-            this.Country = country;
             this.Category = category;
             this.Wins = wins;
             this.Losses = losses;
-        }
-
-        public string FirstName
-        {
-            get
-            {
-                return this.firstName;
-            }
-
-        }
-
-        public string LastName
-        {
-            get
-            {
-                return this.lastName;
-            }
-
-        }
-
-        public string Country
-        {
-            get
-            {
-                return this.country;
-            }
-            private set
-            {
-                Validator.ValidateMinAndMaxLength(value, 3, 25, null);
-                this.country = value;
-            }
         }
 
         public BoxingCategory Category
@@ -72,7 +31,7 @@ namespace OlympicGames.Olympics
             private set
             {
                 Validator.ValidateIfNull(value, null);
-                if (!Enum.IsDefined(typeof(BoxingCategory),value))
+                if (!Enum.IsDefined(typeof(BoxingCategory), value))
                 {
                     throw new ArgumentException("Invalid category");
                 }
@@ -88,7 +47,8 @@ namespace OlympicGames.Olympics
             }
             private set
             {
-                Validator.ValidateMinAndMaxNumber(value, 0, 100, null);
+                Validator.ValidateIfNull(value);
+                Validator.ValidateMinAndMaxNumber(value, 0, 100, "Wins must be between 0 and 100!");
                 this.wins = value;
             }
         }
@@ -101,19 +61,23 @@ namespace OlympicGames.Olympics
             }
             private set
             {
-                Validator.ValidateMinAndMaxNumber(value, 0, 100, null);
+                Validator.ValidateIfNull(value);
+                Validator.ValidateMinAndMaxNumber(value, 0, 100, "Losses must be between 0 and 100!");
                 this.losses = value;
             }
         }
 
-        public override string ToString()
+        public override string OlympianType()
         {
-            return string.Format(@"Created Boxer \n
-                                    BOXER: {0} {1} from {2}\n
-                                    Category: {3}\n
-                                    Wins: {4} \n
-                                    Losses: {5} ",this.FirstName, this.LastName,this.Category, this.Wins, this.Losses);//???
+            return string.Format("BOXER");
         }
+
+        public override string PrintAdditionalInfo()
+        {
+            return string.Format("Category: {0}\nWins: {1}\nLosses: {2}", this.Category, this.Wins, this.Losses);
+        }
+
+        
 
 
     }

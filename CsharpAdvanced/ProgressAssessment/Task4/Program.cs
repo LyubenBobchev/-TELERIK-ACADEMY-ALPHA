@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Task4
 {
-    class Program
+    public class Program
     {
+        IEnumerable<T>;
         static void Main(string[] args)
         {
-            IEnumerable
+            
         }
     }
 }

@@ -15,7 +15,7 @@ namespace Problem2
 
             string infoFilePath = "../../StudentsInfo.txt";
 
-            for (int i = 0; i < (numberOfStudents * 3) - 2 ; i += 3)
+            for (int i = 0; i < (numberOfStudents * 3) - 2; i += 3)
             {
                 string firstName = File.ReadLines(infoFilePath).Skip(i).Take(1).First();
 
@@ -51,8 +51,8 @@ namespace Problem2
                 worker.MoneyPerHour = worker.MoneyEarnedPerHour(weekSalary, workHoursPerDay);
 
                 workers.Add(worker);
-
             }
+
             return workers;
         }
 
@@ -61,9 +61,6 @@ namespace Problem2
             List<Student> students = GenerateStudents(10);
 
             List<Worker> workers = GenerateWorker(10);
-
-            students.OrderBy((x) => x.Grade);
-            workers.OrderBy((x) => x.MoneyPerHour);
 
             foreach (var student in (students.OrderBy((x) => x.Grade))) //sorted by grade in a ascending order
             {

@@ -15,25 +15,15 @@ namespace Task1
 
             string inputNumber = Console.ReadLine();
             List<int> numbers = new List<int>(inputNumber.Length);
-
+            inputNumber.TrimStart('-');
             int j = 0;
-            long s = 0;
+            long startLetter = 0;
             char[] alphabet = new char[] { '0', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
 
             for (int i = 0; i < inputNumber.Length; i++, j++)
             {
-                if (inputNumber[i] == '-')
-                {
-
-                    numbers.Add(int.Parse(inputNumber[i + 1].ToString()));
-                    i++;
-                }
-                else
-                {
-                    numbers.Add(int.Parse(inputNumber[i].ToString()));
-                }
+                numbers.Add(int.Parse(inputNumber[i].ToString()));
             }
-
 
             long result = 0;
             long index = numbers.Count;
@@ -54,28 +44,26 @@ namespace Task1
             }
 
             Console.WriteLine(result);
-
             long lastDigit = result % 10;
-
 
             if (result % 10 == 0)
             {
                 Console.WriteLine("Big Vik wins again!");
             }
-
             else
             {
-                s =(result % 26) + 1;
+                startLetter = (result % 26) + 1;
 
                 for (int i = 0; i < lastDigit; i++)
                 {
-                    Console.Write(alphabet[s]);
-                    if (alphabet[s] == 'Z')
+                    Console.Write(alphabet[startLetter]);
+
+                    if (alphabet[startLetter] == 'Z')
                     {
-                        s = 0;
+                        startLetter = 0;
                     }
 
-                    s++;
+                    startLetter++;
                 }
             }
 

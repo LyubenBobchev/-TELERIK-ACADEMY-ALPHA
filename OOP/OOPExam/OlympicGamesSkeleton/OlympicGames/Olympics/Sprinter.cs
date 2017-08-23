@@ -8,53 +8,15 @@ using System.Threading.Tasks;
 
 namespace OlympicGames.Olympics
 {
-    public class Sprinter : ISprinter, IOlympian
+    public class Sprinter : Olympian, ISprinter, IOlympian
     {
-        private readonly string firstName;
-        private readonly string lastName;
-        private string country;
         private IDictionary<string, double> personalRecords;
 
-        public Sprinter(string firstName, string lastName, string country, IDictionary<string, double> personalRecords)
+        public Sprinter(string firstName, string lastName, string country, IDictionary<string, double> personalRecords) : base(firstName, lastName, country)
         {
-            Validator.ValidateMinAndMaxLength(firstName, 2, 20, null);
-            this.firstName = firstName;
-
-            Validator.ValidateMinAndMaxLength(lastName, 2, 20, null);
-            this.lastName = lastName;
-
-            this.Country = country;
             this.PersonalRecords = personalRecords;
         }
 
-        public string FirstName
-        {
-            get
-            {
-                return this.firstName;
-            }
-        }
-
-        public string LastName
-        {
-            get
-            {
-                return this.lastName;
-            }
-        }
-
-        public string Country
-        {
-            get
-            {
-                return this.country;
-            }
-            private set
-            {
-                Validator.ValidateMinAndMaxLength(value, 3, 25, null);
-                this.country = value;
-            }
-        }
 
         public IDictionary<string, double> PersonalRecords
         {
@@ -64,17 +26,27 @@ namespace OlympicGames.Olympics
             }
             private set
             {
-                Validator.ValidateIfNull(value, null);
                 this.personalRecords = value;
             }
         }
 
-        public override string ToString()
+        public override string OlympianType()
         {
-            return string.Format(@"Created Sprinter\n
-                                    SPRINTER: {0} {1} from {2}\n
-                                    PERSONAL RECORDS: {3}\n"
-                                    ,this.FirstName, this.LastName, this.PersonalRecords);//???
+            return string.Format("SPRINTER");
         }
+
+        public override string PrintAdditionalInfo()
+        {
+            if (this.PersonalRecords == null)
+            {
+                return GlobalConstants.NoPersonalRecordsSet;
+            }
+            else
+            {
+                return string.Format("{0}\n100m: {1}s\n200m: {2}s\n", GlobalConstants.PersonalRecords, this.PersonalRecords["100"],this.PersonalRecords["200"]);
+            }
+        }
+
+
     }
 }

@@ -10,6 +10,12 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            string input = Console.ReadLine();
+        }
+
+        public string[] CountingVariables(string input)
+        {
+            
         }
     }
 }

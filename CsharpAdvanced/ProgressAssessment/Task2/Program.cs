@@ -41,18 +41,9 @@ namespace Task2
 
                         for (int i = arrayIndex; step > 0; step--)
                         {
-                            if (i + size > array.Length - 1)
-                            {
-                                i = (i + size) % array.Length;
-                            }
-                            else
-                            {
-                                i += size;
-                            }
-
+                            i = (i + size) % array.Length;
                             forwardSum += array[i];
                             arrayIndex = i;
-
                         }
 
                         break;
