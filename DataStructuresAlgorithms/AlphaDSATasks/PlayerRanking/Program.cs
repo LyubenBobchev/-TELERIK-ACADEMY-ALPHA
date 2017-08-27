@@ -2,66 +2,95 @@
 using System.Linq;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace PlayerRanking
 {
     public class Program
     {
+        private static readonly BigList<Player> playersRanklist = new BigList<Player>();
+        private static readonly Dictionary<PlayerType, OrderedSet<Player>> playerByType = new Dictionary<PlayerType, OrderedSet<Player>>();
+
         static void Main()
         {
-            BigList<Player> players = new BigList<Player>();
+            Start();
+        }
 
-            string[] commandInput = Console.ReadLine().Split(' ');
+        private static void Start()
+        {
 
-            while (commandInput[0] != "end")
+            string[] command = Console.ReadLine().Split(' ');
+
+            while (command[0] != "end")
             {
 
-                switch (commandInput[0])
+                switch (command[0])
                 {
                     case "add":
-                        Commands.AddPlayer(commandInput, players);
+                        AddPlayer(command);
                         break;
 
                     case "find":
-                        Commands.FindPlayer(commandInput, players);
+                        FindPlayer(command);
                         break;
 
                     case "ranklist":
-                        Commands.ShowRankList(commandInput, players);
+                        ShowRankList(command);
                         break;
 
                 }
 
-                commandInput = Console.ReadLine().Split(' ');
+                command = Console.ReadLine().Split(' ');
             }
+        }
+
+        private static void ShowRankList(string[] command)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void FindPlayer(string[] command)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void AddPlayer(string[] command)
+        {
+            Player player = new Player(command[1], command[2], int.Parse(command[3]), int.Parse(command[4]));
+
+            if (!playerByType.ContainsKey(type))
+            {
+                playerByType.Add(type, new OrderedSet<Player>());
+            }
+
+            playerByType[type].Add(player);
+
+            playersRanklist.Insert((player.Position - 1), player);
+
+            Console.WriteLine("Added player {0} to position {1}", player.Name, player.Position);
         }
     }
 
-    public class Player
+    public enum PlayerType
+    {
+        Aggressive,
+        Neutral,
+        Defensive
+    }
+
+    public class Player : IComparable<Player>
     {
         private readonly string name;
-        private readonly string playerType;
+        private readonly PlayerType type;
         private readonly int age;
         private int position;
 
-        public Player(string name, string playerType, int age, int position)
+        public Player(string name, PlayerType playerType, int age, int position)
         {
-            if (name.Length < 1 || name.Length > 20)
-            {
-                throw new ArgumentOutOfRangeException("Invalid string length!");
-            }
             this.name = name;
 
-            if (playerType.Length < 1 || playerType.Length > 10)
-            {
-                throw new ArgumentOutOfRangeException("Invalid string length!");
-            }
-            this.playerType = playerType;
+            this.type = playerType;
 
-            if (age < 10 || age > 50)
-            {
-                throw new ArgumentOutOfRangeException("Invalid player age!");
-            }
             this.age = age;
 
             this.Position = position;
@@ -75,11 +104,11 @@ namespace PlayerRanking
             }
         }
 
-        public string PlayerType
+        public PlayerType Type
         {
             get
             {
-                return this.playerType;
+                return this.type;
             }
         }
 
@@ -103,38 +132,26 @@ namespace PlayerRanking
             }
         }
 
+        public int CompareTo(Player other)
+        {
+            int result = this.Name.CompareTo(other.Name);
+
+            if (result == 0)
+            {
+                result = this.Age.CompareTo(other.Age) * -1;
+            }
+
+            return result;
+
+        }
+
         public override string ToString()
         {
             return string.Format("{0}({1})", this.Name, this.Age);
         }
     }
-
-    public static class Commands
-    {
-        public static void AddPlayer(string[] addCommand, BigList<Player> playerList)
-        {
-
-
-            Player player = new Player(addCommand[1], addCommand[2], int.Parse(addCommand[3]), int.Parse(addCommand[4]));
-
-            playerList.Insert((player.Position - 1), player);
-
-            Console.WriteLine("Added player {0} to position {1}", player.Name, player.Position);
-        }
-
-        public static void FindPlayer(string[] findCommand, BigList<Player> playerList)
-        {
-            Console.WriteLine("Type {0}: {1}", findCommand[1], ((playerList.Count != 0 ? string.Join("; ",
-                playerList
-                .OrderBy(x => x.Name)
-                .ThenByDescending(x => x.Age)
-                .Where(x => x.PlayerType == findCommand[1]).Take(5)) : "")));
-        }
-
-        public static void ShowRankList(string[] rankListCommand, BigList<Player> playerList)
-        {
-            int counter = 1;
-            Console.WriteLine(string.Join("; ", playerList.Take(int.Parse(rankListCommand[2])).Select(x => string.Format("{0}. {1}", counter++, x))));
-        }
-    }
 }
+
+
+
+
