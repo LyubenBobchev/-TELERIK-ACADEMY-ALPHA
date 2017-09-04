@@ -9,7 +9,7 @@ namespace PlayerRanking
     public class Program
     {
         private static readonly BigList<Player> playersRanklist = new BigList<Player>();
-        private static readonly Dictionary<PlayerType, OrderedSet<Player>> playerByType = new Dictionary<PlayerType, OrderedSet<Player>>();
+        private static readonly Dictionary<string, OrderedSet<Player>> playerByType = new Dictionary<string, OrderedSet<Player>>();
 
         static void Main()
         {
@@ -46,46 +46,62 @@ namespace PlayerRanking
 
         private static void ShowRankList(string[] command)
         {
-            throw new NotImplementedException();
+            int start = int.Parse(command[1]) - 1;
+            int counter = start + 1;
+            int end = int.Parse(command[2]) - 1;
+            int count = end - start + 1;
+            var rankedPlayers = playersRanklist.Range(start, count);
+
+            Console.WriteLine(string.Join("; ", rankedPlayers.Select(x => string.Format("{0}. {1}", counter++, x.ToString()))));
         }
 
         private static void FindPlayer(string[] command)
         {
-            throw new NotImplementedException();
+            var playerType = command[1];
+
+            if (playerByType.ContainsKey(playerType))
+            {
+                Console.WriteLine(string.Format("Type {0}: {1}", playerType, string.Join("; ", playerByType[playerType].Take(5))));
+            }
+            else
+            {
+                string.Format("Type {0}: ", playerType);
+            }
         }
 
         private static void AddPlayer(string[] command)
         {
-            Player player = new Player(command[1], command[2], int.Parse(command[3]), int.Parse(command[4]));
+            string name = command[1];
+            string type = command[2];
+            int age = int.Parse(command[3]);
+            int position = int.Parse(command[4]) - 1;
 
-            if (!playerByType.ContainsKey(type))
+            Player player = new Player(name, type, age, position);
+
+            if (!playerByType.ContainsKey(command[2]))
             {
-                playerByType.Add(type, new OrderedSet<Player>());
+                playerByType.Add(command[2], new OrderedSet<Player>());
             }
 
             playerByType[type].Add(player);
+            playerByType.Where(x => x.Value == null);
+            playersRanklist.Insert(position, player);
 
-            playersRanklist.Insert((player.Position - 1), player);
+            string[] b = new string[9999999999999999999];
 
-            Console.WriteLine("Added player {0} to position {1}", player.Name, player.Position);
+            Console.WriteLine("Added player {0} to position {1}", player.Name, player.Position + 1);
         }
     }
 
-    public enum PlayerType
-    {
-        Aggressive,
-        Neutral,
-        Defensive
-    }
 
     public class Player : IComparable<Player>
     {
         private readonly string name;
-        private readonly PlayerType type;
+        private readonly string type;
         private readonly int age;
         private int position;
 
-        public Player(string name, PlayerType playerType, int age, int position)
+        public Player(string name, string playerType, int age, int position)
         {
             this.name = name;
 
@@ -104,7 +120,7 @@ namespace PlayerRanking
             }
         }
 
-        public PlayerType Type
+        public string Type
         {
             get
             {
