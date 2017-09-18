@@ -54,6 +54,10 @@
     <Compile Include="Core\Contracts\ICommandProcessor.cs" />
     <Compile Include="Core\Contracts\IEngine.cs" />
     <Compile Include="Core\Contracts\IOlympicCommittee.cs" />
+    <Compile Include="Core\Providers\ConsoleReader.cs" />
+    <Compile Include="Core\Providers\ConsoleWriter.cs" />
+    <Compile Include="Core\Providers\IReader.cs" />
+    <Compile Include="Core\Providers\IWriter.cs" />
     <Compile Include="Core\Providers\OlympicCommittee.cs" />
     <Compile Include="Core\Contracts\IOlympicsFactory.cs" />
     <Compile Include="Core\Providers\CommandProcessor.cs" />

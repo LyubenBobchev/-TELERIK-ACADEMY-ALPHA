@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Aquapark
 {
@@ -10,12 +8,12 @@ namespace Aquapark
     {
         private static Queue<int> people = new Queue<int>();
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Start();
         }
 
-        static void Start()
+        public static void Start()
         {
             var numberOfCommands = int.Parse(Console.ReadLine());
 
@@ -40,9 +38,9 @@ namespace Aquapark
                     default:
                         break;
                 }
-
             }
         }
+
         private static void AddPeople(string[] inputCommands)
         {
             people.Enqueue(int.Parse(inputCommands[1]));
@@ -67,5 +65,3 @@ namespace Aquapark
         }
     }
 }
-
-

@@ -7,93 +7,89 @@ using Wintellect.PowerCollections;
 
 namespace DogLovesPaper
 {
+
     public class Program
     {
+        static SortedSet<Node> allNodes = new SortedSet<Node>();
+        static Stack<Node> nodeSet = new Stack<Node>();
+        static HashSet<int> sortedNodes = new HashSet<int>();
+
+
         public static void Main(string[] args)
         {
-            ///    int inputNumber = int.Parse(Console.ReadLine());
-            //    for (int i = 0; i < inputNumber; i++)
-            //    {
-            //        string[] inputString = Console.ReadLine().Split(' ');
-            //        int numA = int.Parse(inputString[0]);
-            //        int numB = int.Parse(inputString[3]);
-            //        string instructions = inputString[2];
-            //    }
-            var n = int.Parse(Console.ReadLine());
-            var graph = new Dictionary<int, HashSet<int>>();
-            var sb = new StringBuilder();
-            var isFirstIteration = true;
-
-            for (int i = 0; i < n; i++)
+            int inputnumber = int.Parse(Console.ReadLine());
+            for (int i = 0; i < inputnumber; i++)
             {
-                var input = Console.ReadLine().Split();
-                var first = int.Parse(input[0]);
-                var second = int.Parse(input[3]);
-                var direction = input[2];
+                string[] inputstring = Console.ReadLine().Split(' ');
+                int numA = int.Parse(inputstring[0]);
+                int numB = int.Parse(inputstring[3]);
+                string instructions = inputstring[2];
 
-                if (!graph.ContainsKey(first))
-                {
-                    graph[first] = new HashSet<int>();
-                }
 
-                if (!graph.ContainsKey(second))
-                {
-                    graph[second] = new HashSet<int>();
-                }
-
-                switch (direction)
+                switch (instructions)
                 {
                     case "after":
-                        graph[first].Add(second);
+                        Node parentNode = new Node() { Number = numB, HasPrev = false };
+                        Node childNode = new Node() { Number = numA, HasPrev = true };
+                        parentNode.Next.Add(childNode);
+                        allNodes.Add(parentNode);
+                        allNodes.Add(childNode);
                         break;
+
                     case "before":
-                        graph[second].Add(first);
+                        Node parentNode2 = new Node() { Number = numA, HasPrev = false };
+                        Node childNode2 = new Node() { Number = numB, HasPrev = true };
+                        parentNode2.Next.Add(childNode2);
+                        allNodes.Add(parentNode2);
+                        allNodes.Add(childNode2);
                         break;
                 }
             }
 
-            var initialGraphCount = graph.Count;
-
-            while (graph.Count > 0)
+            foreach (var item in allNodes.Where(x => x.HasPrev == false))
             {
-                if (initialGraphCount != graph.Count)
-                {
-                    isFirstIteration = false;
-                }
-
-                var currentMin = int.MaxValue;
-                foreach (var key in graph.Keys)
-                {
-                    if (graph[key].Count == 0)
-                    {
-                        if (currentMin > key)
-                        {
-                            if (isFirstIteration && key == 0)
-                            {
-                                continue;
-                            }
-                            else
-                            {
-                                currentMin = key;
-                            }
-                        }
-                    }
-                }
-
-                graph.Remove(currentMin);
-
-                foreach (var key in graph.Keys)
-                {
-                    if (graph[key].Contains(currentMin))
-                    {
-                        graph[key].Remove(currentMin);
-                    }
-                }
-
-                sb.Append(currentMin);
+                nodeSet.Push(item);
             }
 
-            Console.WriteLine(sb.ToString());
+            do
+            {
+                var currentNode = nodeSet.Pop();
+                foreach (var node in currentNode.Next)
+                {
+                    node.HasPrev = false;
+                }
+                sortedNodes.Add(currentNode.Number);
+
+                foreach (var node in currentNode.Next)
+                {
+                    if (node.HasPrev == false && !nodeSet.Contains(node))
+                    {
+                        nodeSet.Push(node);
+                    }
+                }
+            } while (nodeSet.Count != 0);
+
+            foreach (var node in sortedNodes)
+            {
+                Console.Write(node);
+            }
+        }
+    }
+
+    public class Node : IComparable<Node>
+    {
+        public Node()
+        {
+            this.Next = new List<Node>();
+        }
+
+        public int Number { get; set; }
+        public bool HasPrev { get; set; }
+        public List<Node> Next { get; set; }
+
+        public int CompareTo(Node other)
+        {
+            return this.Number.CompareTo(other.Number) * -1;
         }
     }
 }

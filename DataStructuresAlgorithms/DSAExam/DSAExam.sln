@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogLovesPaper", "DogLovesPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeganBodybuilder", "VeganBodybuilder\VeganBodybuilder.csproj", "{EFF84726-55E4-419F-90DA-16B82F4F5676}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST", "TEST\TEST.csproj", "{84574AD4-D5B6-4C33-9CBE-01CF97D06394}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EFF84726-55E4-419F-90DA-16B82F4F5676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF84726-55E4-419F-90DA-16B82F4F5676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF84726-55E4-419F-90DA-16B82F4F5676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84574AD4-D5B6-4C33-9CBE-01CF97D06394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84574AD4-D5B6-4C33-9CBE-01CF97D06394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84574AD4-D5B6-4C33-9CBE-01CF97D06394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84574AD4-D5B6-4C33-9CBE-01CF97D06394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

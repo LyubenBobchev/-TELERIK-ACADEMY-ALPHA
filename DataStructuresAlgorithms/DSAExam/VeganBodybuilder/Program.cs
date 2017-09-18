@@ -26,9 +26,9 @@ namespace VeganBodybuilder
                 int weight = int.Parse(foodProps[1]);
                 int gramsOfProtein = int.Parse(foodProps[2]);
 
-               allFoods.Add(new Food() { Name = foodName, Weight = weight, Protein = gramsOfProtein });
+                allFoods.Add(new Food() { Name = foodName, Weight = weight, Protein = gramsOfProtein });
             }
-            
+
             for (int i = 1; i <= numberOfFoods; i++)
             {
                 for (int w = 1; w <= maximumGrams; w++)
@@ -37,12 +37,10 @@ namespace VeganBodybuilder
                     {
                         table[i, w] = 0;
                     }
-
                     else if (allFoods[i].Weight > w)
                     {
                         table[i, w] = table[i - 1, w];
                     }
-
                     else if (allFoods[i].Weight <= w)
                     {
                         table[i, w] = Math.Max(table[i - 1, w], (allFoods[i].Protein + table[i - 1, w - allFoods[i].Weight]));
@@ -64,7 +62,6 @@ namespace VeganBodybuilder
                     weightF -= allFoods[items].Weight;
                     items -= 1;
                 }
-
                 else
                 {
                     items -= 1;
@@ -79,7 +76,6 @@ namespace VeganBodybuilder
             Console.WriteLine(maxGramProtein);
             Console.WriteLine(sb);
         }
-
     }
 }
 
@@ -90,4 +86,3 @@ public class Food
     public int Protein { get; set; }
     public bool Chosen { get; set; }
 }
-

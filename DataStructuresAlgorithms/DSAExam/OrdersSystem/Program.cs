@@ -10,7 +10,7 @@ namespace OrdersSystem
     public class Program
     {
         private static Dictionary<string, OrderedBag<Order>> ordersByConsumer = new Dictionary<string, OrderedBag<Order>>();
-        private static Bag<Order> ordersByPrice = new Bag<Order>();
+        private static OrderedDictionary<decimal, List<Order>> ordersByPrice = new OrderedDictionary<decimal, List<Order>>();
 
         public static void Main(string[] args)
         {
@@ -45,12 +45,10 @@ namespace OrdersSystem
                         DeleteOrders(info);
                         break;
                 }
-
             }
-
         }
 
-        public static void AddOrder(string[] info)
+        private static void AddOrder(string[] info)
         {
             string name = info[0];
             decimal price = decimal.Parse(info[1]);
@@ -62,27 +60,70 @@ namespace OrdersSystem
             {
                 ordersByConsumer.Add(consumer, new OrderedBag<Order>());
             }
+
             ordersByConsumer[consumer].Add(order);
 
-            ordersByPrice.Add(order);
+            if (!ordersByPrice.ContainsKey(order.Price))
+            {
+                ordersByPrice.Add(order.Price, new List<Order>());
+            }
+
+            ordersByPrice[order.Price].Add(order);
 
             Console.WriteLine("Order added");
         }
 
-        public static void FindOrdersByPriceRange(string[] info)
+        private static void DeleteOrders(string[] info)
+        {
+            string consumerName = info[0];
+
+            if (ordersByConsumer.ContainsKey(consumerName))
+            {
+                OrderedBag<Order> subset = ordersByConsumer[consumerName];
+                foreach (Order set in subset)
+                {
+                    ordersByPrice[set.Price].Remove(set);
+                }
+
+                ordersByConsumer.Remove(consumerName);
+
+                Console.WriteLine(subset.Count + " orders deleted");
+            }
+            else
+            {
+                Console.WriteLine("No orders found");
+            }
+        }
+
+        private static void FindOrdersByPriceRange(string[] info)
         {
             decimal minPrice = decimal.Parse(info[0]);
             decimal maxPrice = decimal.Parse(info[1]);
 
-            var orderedByPrice = ordersByPrice.Where(x => ((x.Price >= minPrice) && (x.Price <= maxPrice) && (ordersByPrice.Contains(x)))).OrderBy(n => n.Name);
-
-            foreach (var item in orderedByPrice)
+            var ordersPriceRange = ordersByPrice.Range(minPrice, true, maxPrice, true).Values.ToArray();
+            OrderedBag<Order> ordered = new OrderedBag<Order>();
+            foreach (var price in ordersPriceRange)
             {
-                Console.WriteLine(item);
+                foreach (var order in price)
+                {
+                    ordered.Add(order);
+                }
+            }
+
+            if (ordered.Any())
+            {
+                foreach (var order in ordered)
+                {
+                    Console.WriteLine(order);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No orders found");
             }
         }
 
-        public static void FindOrdersByConsumer(string[] info)
+        private static void FindOrdersByConsumer(string[] info)
         {
             string consumer = info[0];
             if (!ordersByConsumer.ContainsKey(consumer))
@@ -91,43 +132,18 @@ namespace OrdersSystem
             }
             else
             {
-                var ByConsumer = ordersByConsumer[consumer];
+                var byConsumer = ordersByConsumer[consumer];
 
-                if (ByConsumer.Count == 0)
+                if (byConsumer.Count == 0)
                 {
                     Console.WriteLine("No orders found");
                 }
                 else
                 {
-                    foreach (var item in ByConsumer)
+                    foreach (var item in byConsumer)
                     {
                         Console.WriteLine(item);
                     }
-                }
-            }
-
-        }
-
-        public static void DeleteOrders(string[] info)
-        {
-            string consumer = info[0];
-
-            if (!ordersByConsumer.ContainsKey(consumer))
-            {
-                Console.WriteLine("No orders found");
-            }
-            else
-            {
-                var count = ordersByConsumer[consumer].Count;
-
-                if (ordersByConsumer[consumer].Count == 0)
-                {
-                    Console.WriteLine("No orders found");
-                }
-                else
-                {
-                    ordersByConsumer[consumer].Clear();
-                    Console.WriteLine("{0} orders deleted", count);
                 }
             }
         }
