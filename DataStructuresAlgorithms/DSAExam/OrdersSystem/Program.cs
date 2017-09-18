@@ -53,7 +53,7 @@ namespace OrdersSystem
             string name = info[0];
             decimal price = decimal.Parse(info[1]);
             string consumer = info[2];
-
+            
             Order order = new Order(name, price, consumer);
 
             if (!ordersByConsumer.ContainsKey(consumer))
