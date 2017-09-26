@@ -1,0 +1,12 @@
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.exe
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.pdb
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.exe
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\bin\Debug\Task2.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\CsharpAdvanced\ProgressAssessment\Task2\obj\Debug\Task2.pdb

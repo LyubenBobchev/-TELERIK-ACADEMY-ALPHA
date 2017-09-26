@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\obj\Debug\ParseTags.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\bin\Debug\ParseTags.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\bin\Debug\ParseTags.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\bin\Debug\ParseTags.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\obj\Debug\ParseTags.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ParseTags\obj\Debug\ParseTags.pdb

@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\bin\Debug\RemoveElementsFromArray.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\bin\Debug\RemoveElementsFromArray.exe
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\bin\Debug\RemoveElementsFromArray.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\obj\Debug\RemoveElementsFromArray.exe
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\obj\Debug\RemoveElementsFromArray.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\RemoveElementsFromArray\obj\Debug\RemoveElementsFromArray.csprojResolveAssemblyReference.cache

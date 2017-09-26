@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\bin\Debug\StringLength.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\bin\Debug\StringLength.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\bin\Debug\StringLength.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\obj\Debug\StringLength.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\obj\Debug\StringLength.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\StringLength\obj\Debug\StringLength.pdb

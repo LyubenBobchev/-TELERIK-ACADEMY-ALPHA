@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\bin\Debug\SquareRoot.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\bin\Debug\SquareRoot.exe
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\bin\Debug\SquareRoot.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\obj\Debug\SquareRoot.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\obj\Debug\SquareRoot.exe
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\SquareRoot\obj\Debug\SquareRoot.pdb

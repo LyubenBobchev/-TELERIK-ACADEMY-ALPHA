@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\obj\Debug\FillTheMatrix.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\bin\Debug\FillTheMatrix.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\bin\Debug\FillTheMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\bin\Debug\FillTheMatrix.pdb
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\obj\Debug\FillTheMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\FillTheMatrix\obj\Debug\FillTheMatrix.pdb

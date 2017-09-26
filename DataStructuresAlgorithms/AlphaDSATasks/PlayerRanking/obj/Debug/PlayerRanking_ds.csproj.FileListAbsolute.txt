@@ -1,0 +1,8 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\bin\Debug\PlayerRanking.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\bin\Debug\PlayerRanking.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\bin\Debug\PlayerRanking.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\bin\Debug\PowerCollections.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\bin\Debug\PowerCollections.xml
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\obj\Debug\PlayerRanking_ds.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\obj\Debug\PlayerRanking.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\PlayerRanking\obj\Debug\PlayerRanking.pdb

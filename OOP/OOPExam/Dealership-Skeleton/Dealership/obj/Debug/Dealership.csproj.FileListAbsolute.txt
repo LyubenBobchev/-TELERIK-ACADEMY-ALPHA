@@ -1,0 +1,5 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Dealership-Skeleton\Dealership\bin\Debug\Dealership.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Dealership-Skeleton\Dealership\bin\Debug\Dealership.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Dealership-Skeleton\Dealership\obj\Debug\Dealership.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Dealership-Skeleton\Dealership\obj\Debug\Dealership.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Dealership-Skeleton\Dealership\obj\Debug\Dealership.pdb

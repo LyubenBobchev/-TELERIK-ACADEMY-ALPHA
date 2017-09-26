@@ -1,0 +1,8 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\bin\Debug\VeganBodybuilder.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\bin\Debug\VeganBodybuilder.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\bin\Debug\VeganBodybuilder.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\bin\Debug\PowerCollections.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\bin\Debug\PowerCollections.xml
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\obj\Debug\VeganBodybuilder.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\obj\Debug\VeganBodybuilder.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\DSAExam\VeganBodybuilder\obj\Debug\VeganBodybuilder.pdb

@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\bin\Debug\EnterNumbers.exe
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\bin\Debug\EnterNumbers.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\obj\Debug\EnterNumbers.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\obj\Debug\EnterNumbers.exe
+D:\_SOFT_DEV\CsharpAdvanced\Exceptions\EnterNumbers\obj\Debug\EnterNumbers.pdb

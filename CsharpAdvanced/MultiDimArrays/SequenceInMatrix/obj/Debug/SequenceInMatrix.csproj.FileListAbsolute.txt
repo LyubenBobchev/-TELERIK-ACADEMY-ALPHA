@@ -1,0 +1,12 @@
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.pdb
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultidimensionalArrays\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.pdb
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\bin\Debug\SequenceInMatrix.pdb
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.exe
+D:\_SOFT_DEV\CsharpAdvanced\MultiDimArrays\SequenceInMatrix\obj\Debug\SequenceInMatrix.pdb

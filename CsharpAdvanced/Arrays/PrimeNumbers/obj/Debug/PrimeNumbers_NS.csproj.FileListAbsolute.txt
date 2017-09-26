@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\bin\Debug\PrimeNumbers.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\bin\Debug\PrimeNumbers.exe
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\bin\Debug\PrimeNumbers.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\obj\Debug\PrimeNumbers_NS.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\obj\Debug\PrimeNumbers.exe
+D:\_SOFT_DEV\CsharpAdvanced\Arrays\PrimeNumbers\obj\Debug\PrimeNumbers.pdb

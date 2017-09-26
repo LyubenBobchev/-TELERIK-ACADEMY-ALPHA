@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\obj\Debug\OddLines.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\bin\Debug\OddLines.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\bin\Debug\OddLines.exe
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\bin\Debug\OddLines.pdb
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\obj\Debug\OddLines.exe
+D:\_SOFT_DEV\CsharpAdvanced\IOWorkingWithFiles\OddLines\obj\Debug\OddLines.pdb

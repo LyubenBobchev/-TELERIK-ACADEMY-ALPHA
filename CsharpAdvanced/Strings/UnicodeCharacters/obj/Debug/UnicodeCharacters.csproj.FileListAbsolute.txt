@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\bin\Debug\UnicodeCharacters.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\bin\Debug\UnicodeCharacters.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\bin\Debug\UnicodeCharacters.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\obj\Debug\UnicodeCharacters.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\obj\Debug\UnicodeCharacters.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\UnicodeCharacters\obj\Debug\UnicodeCharacters.pdb

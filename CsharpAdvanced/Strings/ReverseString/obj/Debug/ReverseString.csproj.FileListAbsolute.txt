@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\bin\Debug\ReverseString.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\bin\Debug\ReverseString.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\bin\Debug\ReverseString.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\obj\Debug\ReverseString.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\obj\Debug\ReverseString.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\ReverseString\obj\Debug\ReverseString.pdb

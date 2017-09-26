@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\bin\Debug\CorrectBrackets.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\CorrectBrackets\obj\Debug\CorrectBrackets.pdb

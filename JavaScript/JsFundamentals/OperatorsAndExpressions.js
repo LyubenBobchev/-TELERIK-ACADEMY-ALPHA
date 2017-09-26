@@ -1,5 +1,5 @@
 //1.odd or even
-
+'use strict'
 function oddOrEven(input){
 const inputNum = +input;
     if(input % 2 === 0) {
@@ -74,8 +74,30 @@ function pointInACircle(input){ //radius is 2 with center {0,0}
 //7.Prime Check
 
 function primeCheck(input) {
-    const number = +(input[0]);
-    
+    const number = parseInt(input[0]);
+    if (number <= 1) {
+        return false;
+    }
+    else if (number === 2) {
+        return true;
+    }
+    else{
+        for (var i = 2; i < number; i++) {
+           if (number % i === 0) { 
+            return false;
+           }          
+        }
+        return true;
+    }
 }
-    
 
+//.Trapeziod
+
+function trapezoid(input) {
+    const sideA = parseFloat(input[0]);
+    const sideB = parseFloat(input[1]);
+    const height = parseFloat(input[2]);
+    let area = 0.5 * height * (sideA + sideB);
+    console.log(area.toFixed(7));
+}
+trapezoid(['8', '6', '10'])

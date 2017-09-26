@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\bin\Debug\Conference.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\bin\Debug\Conference.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\bin\Debug\Conference.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\obj\Debug\Conference_grph.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\obj\Debug\Conference.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Conference\obj\Debug\Conference.pdb

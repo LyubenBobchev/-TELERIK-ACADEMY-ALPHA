@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\bin\Debug\SearchingAlgorithms.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\bin\Debug\SearchingAlgorithms.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\bin\Debug\SearchingAlgorithms.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\obj\Debug\SearchingAlgorithms.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\obj\Debug\SearchingAlgorithms.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\DataStructuresAlgorithms\SearchingAlgorithms\SearchingAlgorithms\obj\Debug\SearchingAlgorithms.pdb

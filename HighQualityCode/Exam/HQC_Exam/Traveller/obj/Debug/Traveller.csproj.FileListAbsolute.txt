@@ -1,0 +1,13 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Traveller.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Traveller.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Traveller.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Bytes2you.Validation.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Castle.Core.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Moq.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Ninject.dll
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Moq.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Moq.xml
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\bin\Debug\Ninject.xml
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\obj\Debug\Traveller.csproj.CoreCompileInputs.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\obj\Debug\Traveller.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\HighQualityCode\Exam\HQC_Exam\Traveller\obj\Debug\Traveller.pdb

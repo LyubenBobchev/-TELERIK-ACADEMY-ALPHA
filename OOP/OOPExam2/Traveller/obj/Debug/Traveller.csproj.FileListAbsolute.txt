@@ -1,0 +1,18 @@
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\bin\Debug\Traveller.exe.config
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\bin\Debug\Traveller.exe
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\bin\Debug\Traveller.pdb
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\obj\Debug\Traveller.csprojResolveAssemblyReference.cache
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\obj\Debug\Traveller.exe
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Academy - Solution\Traveller\obj\Debug\Traveller.pdb
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\obj\Debug\Traveller.csprojResolveAssemblyReference.cache
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\obj\Debug\Traveller.exe
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\obj\Debug\Traveller.pdb
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\bin\Debug\Traveller.exe.config
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\bin\Debug\Traveller.exe
+D:\Source\Admin\Exams\Alpha\C# OOP\2017-08\Traveller - Task\Traveller\bin\Debug\Traveller.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\obj\Debug\Traveller.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\obj\Debug\Traveller.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\obj\Debug\Traveller.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\bin\Debug\Traveller.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\bin\Debug\Traveller.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam2\Traveller\bin\Debug\Traveller.pdb

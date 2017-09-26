@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\bin\Debug\TEST.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\bin\Debug\TEST.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\bin\Debug\TEST.pdb
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\obj\Debug\TEST.exe
+D:\_SOFT_DEV\CsharpAdvanced\Strings\TEST\obj\Debug\TEST.pdb

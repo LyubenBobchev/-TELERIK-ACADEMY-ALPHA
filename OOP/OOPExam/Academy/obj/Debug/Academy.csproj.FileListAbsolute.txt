@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\bin\Debug\Academy.exe.config
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\bin\Debug\Academy.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\bin\Debug\Academy.pdb
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\obj\Debug\Academy.csprojResolveAssemblyReference.cache
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\obj\Debug\Academy.exe
+D:\_SOFT_DEV\TELERIK_ALPHA\OOP\OOPExam\Academy\obj\Debug\Academy.pdb

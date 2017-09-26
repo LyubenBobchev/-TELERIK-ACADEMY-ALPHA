@@ -1,0 +1,6 @@
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\bin\Debug\Task4.exe.config
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\bin\Debug\Task4.exe
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\bin\Debug\Task4.pdb
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\obj\Debug\Task4.exe
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\obj\Debug\Task4.pdb
+D:\_SOFT_DEV\CsharpAdvanced\ProgressAssessment\Task4\obj\Debug\Task4.csprojResolveAssemblyReference.cache
