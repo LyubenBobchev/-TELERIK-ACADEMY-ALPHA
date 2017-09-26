@@ -1,0 +1,8 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\bin\Debug\OrdersSystem.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\bin\Debug\OrdersSystem.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\bin\Debug\OrdersSystem.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\bin\Debug\PowerCollections.dll
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\bin\Debug\PowerCollections.xml
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\obj\Debug\OrdersSystem.csprojResolveAssemblyReference.cache
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\obj\Debug\OrdersSystem.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\OrdersSystem\obj\Debug\OrdersSystem.pdb

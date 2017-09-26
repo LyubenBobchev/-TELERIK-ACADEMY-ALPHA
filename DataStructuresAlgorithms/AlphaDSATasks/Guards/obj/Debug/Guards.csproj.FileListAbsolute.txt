@@ -1,0 +1,6 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\bin\Debug\Guards.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\bin\Debug\Guards.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\bin\Debug\Guards.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\obj\Debug\Guards.csprojResolveAssemblyReference.cache
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\obj\Debug\Guards.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\AlphaDSATasks\Guards\obj\Debug\Guards.pdb

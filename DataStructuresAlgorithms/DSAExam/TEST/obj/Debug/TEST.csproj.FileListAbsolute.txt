@@ -1,0 +1,9 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\bin\Debug\TEST.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\bin\Debug\TEST.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\bin\Debug\TEST.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\obj\Debug\TEST.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\obj\Debug\TEST.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\bin\Debug\Ninject.dll
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\bin\Debug\Ninject.xml
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\DataStructuresAlgorithms\DSAExam\TEST\obj\Debug\TEST.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\obj\Debug\Problem2.csprojResolveAssemblyReference.cache
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\bin\Debug\Problem2.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\bin\Debug\Problem2.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\bin\Debug\Problem2.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\obj\Debug\Problem2.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\OOP\OOPPrinciples1\Problem2\obj\Debug\Problem2.pdb

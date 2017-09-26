@@ -1,0 +1,5 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\Compare_Arrays\bin\Debug\Compare_Arrays.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\Compare_Arrays\bin\Debug\Compare_Arrays.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\Compare_Arrays\bin\Debug\Compare_Arrays.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\Compare_Arrays\obj\Debug\Compare_Arrays.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\Compare_Arrays\obj\Debug\Compare_Arrays.pdb

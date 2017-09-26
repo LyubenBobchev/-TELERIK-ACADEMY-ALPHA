@@ -1,0 +1,6 @@
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\bin\Debug\TEST.exe.config
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\bin\Debug\TEST.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\bin\Debug\TEST.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\obj\Debug\TEST.exe
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\obj\Debug\TEST.pdb
+D:\______SOFTDEVELOP\__TELERIK\ALPHA\CsharpAdvanced\Arrays\TEST\obj\Debug\TEST.csprojResolveAssemblyReference.cache
