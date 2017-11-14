@@ -1,0 +1,29 @@
+{
+    "count": "6",
+    "synopses": [
+        {
+            "MovieTitle": "The Shawshank Redemption",
+            "text": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+        },
+        {
+            "MovieTitle": "The Dark Knight",
+            "text": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+        },
+        {
+            "MovieTitle": "12 Angry Men",
+            "text": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."
+        },
+        {
+            "MovieTitle": "Two and a Half Men",
+            "text": "A hedonistic jingle writer's free-wheeling life comes to an abrupt halt when his brother and 10-year-old nephew move into his beach-front house."
+        },
+        {
+            "MovieTitle": "Rick and Morty",
+            "text": "An animated series that follows the exploits of a super scientist and his not-so-bright grandson."
+        },
+        {
+            "MovieTitle": "Dexter",
+            "text": "By day, mild-mannered Dexter is a blood-spatter analyst for the Miami police. But at night, he is a serial killer who only targets other murderers."
+        }
+    ]
+}

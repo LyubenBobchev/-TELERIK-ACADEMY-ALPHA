@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<People>
+  <person>
+    <firstName>Tom</firstName>
+    <lastName>Hanks</lastName>
+    <job>Actor</job>
+    <movie>The Shawshank Redemption</movie>
+  </person>
+
+  <person>
+    <firstName>Johnny</firstName>
+    <lastName>Depp</lastName>
+    <job>Actor</job>
+    <movie>The Godfather</movie>
+
+  </person>
+  <person>
+    <firstName>Robert</firstName>
+    <lastName>DeNiro</lastName>
+    <job>Actor</job>
+    <movie>The Godfather: Part II</movie>
+
+  </person>
+  <person>
+    <firstName>Jack</firstName>
+    <lastName>Nicholson</lastName>
+    <job>Actor</job>
+    <movie>The Dark Knight</movie>
+
+  </person>
+  <person>
+    <firstName>Stanley</firstName>
+    <lastName>Kubrick</lastName>
+    <job>Director</job>
+    <movie>12 Angry Men</movie>
+
+  </person>
+  <person>
+    <firstName>David</firstName>
+    <lastName>Fincher</lastName>
+    <job>Director</job>
+    <movie>Schindler's List</movie>
+
+  </person>
+  <person>
+    <firstName>Darren</firstName>
+    <lastName>Aronofsky</lastName>
+    <job>Director</job>
+    <movie>Pulp Fiction</movie>
+
+  </person>
+  <person>
+    <firstName>Roman</firstName>
+    <lastName>Polanski</lastName>
+    <job>Director</job>
+    <movie>The Lord of the Rings: The Return of the King</movie>
+
+  </person>
+  <person>
+    <firstName>Sergio</firstName>
+    <lastName>Leone</lastName>
+    <job>Writer</job>
+    <movie>City of God</movie>
+
+  </person>
+  <person>
+    <firstName>Christopher</firstName>
+    <lastName>Nolan</lastName>
+    <job>Writer</job>
+    <movie>The Matrix</movie>
+
+  </person>
+  <person>
+    <firstName>James</firstName>
+    <lastName>Cameron</lastName>
+    <job>Writer</job>
+    <movie>Goodfellas</movie>
+
+  </person>
+  <person>
+    <firstName>Quentin</firstName>
+    <lastName>Tarantino</lastName>
+    <job>Writer</job>
+    <movie>Inception</movie>
+
+  </person>
+</People>

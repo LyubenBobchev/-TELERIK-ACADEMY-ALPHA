@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" type="text/css" href="styles/kitchen.css" />
+    <link rel="shortcut icon" href="styles/ico.ico" />
+    <title>The Cozy Kitchen!</title>
+</head>
+
+<body>
+
+    <header id="menu">
+        <a href="#" id="linkHome">Home</a>
+        <a href="#" id="linkListBooks">List Books</a>
+        <a href="#" id="linkListRecipes">List Recipes</a>
+        <a href="#" id="linkCreateBook">Create Book</a>
+        <a href="#" id="linkCreateRecipe">Create Recipe</a>
+        <a href='#' id="linkLeaveUsAComment">Leave Us a Comment</a>
+        <a href="#" id="linkSearch">Search For Books Online</a>
+
+    </header>
+
+    <main>
+        <section id="viewHome">
+            <h1> Welcome to The Cozy Kitchen!</h1>
+            <div id="home">
+                <h2>Cooking</h2>
+                <p>
+                    Cooking or cookery is the art, technology and craft of preparing food for consumption with or without the use of heat. Cooking
+                    techniques and ingredients vary widely across the world, from grilling food over an open fire to using
+                    electric stoves, to baking in various types of ovens, reflecting unique environmental, economic, and
+                    cultural traditions and trends. The ways or types of cooking also depend on the skill and type of training
+                    an individual cook has. Cooking is done both by people in their own dwellings and by professional cooks
+                    and chefs in restaurants and other food establishments. Cooking can also occur through chemical reactions
+                    without the presence of heat, such as in ceviche, a traditional South American dish where fish is cooked
+                    with the acids in lemon or lime juice. Preparing food with heat or fire is an activity unique to humans.
+                    It may have started around 2 million years ago, though archaeological evidence for it reaches no more
+                    than 1 million years ago. The expansion of agriculture, commerce, trade and transportation between civilizations
+                    in different regions offered cooks many new ingredients. New inventions and technologies, such as the
+                    invention of pottery for holding and boiling water, expanded cooking techniques. Some modern cooks apply
+                    advanced scientific techniques to food preparation to further enhance the flavor of the dish served
+                </p>
+            </div>
+
+        </section>
+
+        <section id="viewCreateBook">
+            <h1>Create Book</h1>
+            <form id="formCreateBook">
+                <div>Title:</div>
+                <div><input type="text" name="title" required /></div>
+                <div>Author:</div>
+                <div><input type="text" name="author" required /></div>
+                <div>Category:</div>
+                <div><input type="text" name="category" required /></div>
+                <div>Description:</div>
+                <div><textarea name="descr" rows="10" required></textarea></div>
+                <div><input type="button" id="buttonCreateBook" value="Create" /></div>
+            </form>
+        </section>
+
+        <section id="viewEditBook">
+            <h1>Edit existing book</h1>
+            <form id="formEditBook">
+                <div><input type="hidden" name="id" required></div>
+                <div>Title:</div>
+                <div><input type="text" name="title" required /></div>
+                <div>Author:</div>
+                <div><input type="text" name="author" required /></div>
+                <div>Description:</div>
+                <div><textarea name="descr" rows="10" required></textarea></div>
+                <div><input type="button" id="buttonEditBook" value="Edit" /></div>
+            </form>
+        </section>
+
+        <section id="viewListBooks">
+            <h1>Books</h1>
+            <div id="books"></div>
+            <!-- <div class="dropdown">
+                <button onclick="ShowDropdown()" class="dropbtn">Categories</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Motivational</a>
+                    <a href="#">Business</a>
+                    <a href="#">Self-development</a>
+                </div>
+            </div> -->
+        </section>
+
+        <section id="viewCreateRecipe">
+            <h1>Create Recipe</h1>
+            <form id="formCreateRecipe">
+                <div>Title:</div>
+                <div><input type="text" name="title" required /></div>
+                <div>Ingredients:</div>
+                <div><input type="text" name="ingredients" required /></div>
+                <div>Directions:</div>
+                <div><textarea name="directions" rows="10" required></textarea></div>
+                <div><input type="button" id="buttonCreateRecipe" value="Create" /></div>
+            </form>
+        </section>
+
+        <section id="viewListRecipes">
+            <h1>Recipes</h1>
+            <div id="recipes"></div>
+        </section>
+
+        <section id="search">
+            <iframe src="https://duckduckgo.com/search.html?prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:408px;height:40px;"
+                frameborder="1" align="middle"></iframe>
+            <img src="https://images.sobadsogood.com/stunning-200-year-old-library-discovered-first-time-in-bouillon/1.jpg">
+        </section>
+
+        <section id="viewLeaveUsAComment">
+            <h1>Leave Us a Comment</h1>
+            <form id="formCreateComment">
+                <div>Username:</div>
+                <div><input type="text" name="username" required /></div>
+                <div>Comment:</div>
+                <div><textarea name="comment" rows="10" required></textarea></div>
+                <div><input type="button" id="buttonCreateComment" value="Submit" /></div>
+            </form>
+            <div id='commentSection' class='container'>No comments yet.</div>
+        </section>
+
+    </main>
+
+    <footer>(c) The Cozy Kitchen - The simple SPA Application that Yo mama likes!</footer>
+
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/database.js"></script>
+    <script src="scripts/factory.js"></script>
+    <script src="scripts/commands.js"></script>
+    <script src="scripts/commandProcessor.js"></script>
+    <script src="scripts/controller.js"></script>
+    <script src="scripts/kitchen.js"></script>
+    <script src="scripts/list-books-category.js"></script>
+</body>
+
+</html>

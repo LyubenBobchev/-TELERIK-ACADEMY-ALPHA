@@ -1,0 +1,56 @@
+{
+  "count": "17",
+  "genres": [
+    {
+      "name": "Action"
+    },
+    {
+      "name": "Adventure"
+    },
+    {
+      "name": "Comedy"
+    },
+    {
+      "name": "Crime"
+    },
+    {
+      "name": "Drama"
+    },
+    {
+      "name": "Fantasy"
+    },
+    {
+      "name": "Historical"
+    },
+    {
+      "name": "Horror"
+    },
+    {
+      "name": "Mystery"
+    },
+    {
+      "name": "Philosophical"
+    },
+    {
+      "name": "Political"
+    },
+    {
+      "name": "Romance"
+    },
+    {
+      "name": "Satire"
+    },
+    {
+      "name": "Science-fiction"
+    },
+    {
+      "name": "Western"
+    },
+    {
+      "name": "Speculative"
+    },
+    {
+      "name": "Thriller"
+    }
+  ]
+}
