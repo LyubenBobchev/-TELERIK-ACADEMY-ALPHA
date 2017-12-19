@@ -1,27 +1,13 @@
 //6.Extract from html
 
-function extractFromHtml(input) {
+function solve(args) {
+    var i = 0,
+        regex = /<(.*?)>/g,
+        result = '';
 
-    let regex =/<(?:.|\n)*?>/gm
-    
-    
-    return input.toString().split(regex);
+    for (i; i < args.length; i += 1) {
+        result += args[i].trim().replace(regex, '').trim();
+    }
 
+    console.log(result);
 }
-
-let test = [
-	'<html>',
-	'  <head>',
-	'    <title>Sample site</title>',
-	'  </head>',
-	'  <body>',
-	'    <div>text',
-	'      <div>more text</div>',
-	'      and more...',
-	'    </div>',
-	'    in body',
-	'  </body>',
-	'</html>'
-]
-
-console.log(extractFromHtml(test));
