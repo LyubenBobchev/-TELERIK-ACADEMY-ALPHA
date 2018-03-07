@@ -1,0 +1,45 @@
+﻿@model IEnumerable<SensorApiData>
+
+@Styles.Render("~/bundles/wizard-css")
+<div class="tab-pane" id="sensor-type">
+
+    @foreach (SensorApiData sensor in Model)
+    {
+        <div class="box">
+            <small class="fade-text">@sensor.Tag</small>
+            <p>@sensor.Description</p>
+            <p class="fade-text">Measurement type: @sensor.MeasureType</p>
+            <p class="fade-text">Min Polling Interval: @sensor.MinPollingIntervalInSeconds s</p>
+
+            @Ajax.ActionLink("Select",
+                "GetProperRegView",
+                "Registration",
+                sensor,
+                new AjaxOptions
+                {
+                    UpdateTargetId = "form-container",
+                    InsertionMode = InsertionMode.Replace,
+                    OnComplete = "scrollTop"
+                },
+                new { @class = "btn reg-select-btn" })
+        </div>
+    }
+
+</div>
+<div id="form-container"></div>
+
+@*https://ctrlq.org/code/19639-turn-div-clickable-link*@
+
+@section scripts{
+
+    @Scripts.Render("~/bundles/jqueryajax")
+    @Scripts.Render("~/bundles/wizard-js")
+
+
+    <script>
+        function scrollTop() {
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        }
+    </script>
+}

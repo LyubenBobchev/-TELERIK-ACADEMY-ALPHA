@@ -1,0 +1,87 @@
+﻿@model IEnumerable<SensorViewModel>
+
+@Styles.Render("~/bundles/tables-css")
+<!-- Example DataTables Card-->
+<div class="card mb-3">
+    <div class="card-header">
+        <i class="fa fa-table"></i> My Sensors
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Measurement Type</th>
+                        <th>Description</th>
+                        <th>Current Value</th>
+                        <th>Public</th>
+                        <th>Functionality</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var sensor in @Model)
+                    {
+                        <tr>
+                            <td>@sensor.Name</td>
+                            <td>@sensor.MeasurementType</td>
+                            <td>@sensor.Description</td>
+                            <td id="@sensor.Id"></td>
+                            <td>@sensor.IsPublic</td>
+                            <td>
+                                @Html.ActionLink("[Edit]", "EditSensor", 
+                                        new { id = sensor.Id })
+
+                                @Html.ActionLink("[Details]", "ShowDetails",
+                                        new { id = sensor.Id })
+                                       
+                                @Html.ActionLink("[Share]", "ShareSensor", "Share",
+                                        new { id = sensor.Id }, new { })
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid-->
+<!-- /.content-wrapper-->
+
+@section scripts{
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/tables-js")
+
+    <script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/Scripts/update-db.js"></script>
+
+    <script>
+         let data = []
+        @{
+            var list = new List<int>();
+            foreach (var sensor in Model.ToList())
+            {
+                int id = sensor.Id;
+                <text> 
+                    data.push(@id);
+                </text>
+
+            }
+        }
+
+    startSignalRUpdate(data);
+        
+        $('a').on('click', function () {
+        let href = $(this).attr('href')
+        let id = href.split('/').reverse()[0]
+        $('.div-form').attr('hidden', 'hidden')
+        let divId = '#' + id;
+        $(divId).removeAttr('hidden')
+        })
+
+    </script>
+
+}
+

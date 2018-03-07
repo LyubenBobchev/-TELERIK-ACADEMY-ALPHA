@@ -1,0 +1,19 @@
+﻿@model SensorViewModel
+@using (Ajax.BeginForm("CreateSensor", "Registration",
+        new AjaxOptions
+        {
+            HttpMethod = "POST",
+            UpdateTargetId = "form-container",
+            InsertionMode = InsertionMode.Replace,
+            //OnComplete = "onComplete"
+
+        }))
+{
+    @Html.AntiForgeryToken()
+    
+    @Html.HiddenFor(m=>m.MinPollingInterval)
+
+    @Html.Partial("_CommonSensorForm", Model)
+
+    <input type="submit" value="Register" class="btn btn-primary btn-block" />
+}

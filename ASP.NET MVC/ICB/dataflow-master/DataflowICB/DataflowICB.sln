@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowICB", "DataflowICB\DataflowICB.csproj", "{FF5F1D6A-95A4-40DA-8C25-1D2680E38210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowICB.UnitTests", "DataflowICB.UnitTests\DataflowICB.UnitTests.csproj", "{4430BCE6-9CEC-416B-9E93-AB13EEE7AA10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataflowICB.Database", "DataflowICB.Database\DataflowICB.Database.csproj", "{A440899D-495C-4F1A-981C-345561033502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataflow.Services", "Dataflow.Services\Dataflow.Services.csproj", "{8D05B7E6-CF48-4B44-B785-4E7152E057AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataflow.DataServices", "Dataflow.DataServices\Dataflow.DataServices.csproj", "{BDA32D80-C003-4CF1-A520-4475A67481DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorApiModels", "SensorApiModels\SensorApiModels.csproj", "{40D6188C-5F7A-4CD1-B1AB-2BCC8B174C6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF5F1D6A-95A4-40DA-8C25-1D2680E38210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5F1D6A-95A4-40DA-8C25-1D2680E38210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5F1D6A-95A4-40DA-8C25-1D2680E38210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5F1D6A-95A4-40DA-8C25-1D2680E38210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4430BCE6-9CEC-416B-9E93-AB13EEE7AA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4430BCE6-9CEC-416B-9E93-AB13EEE7AA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4430BCE6-9CEC-416B-9E93-AB13EEE7AA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4430BCE6-9CEC-416B-9E93-AB13EEE7AA10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A440899D-495C-4F1A-981C-345561033502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A440899D-495C-4F1A-981C-345561033502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A440899D-495C-4F1A-981C-345561033502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A440899D-495C-4F1A-981C-345561033502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D05B7E6-CF48-4B44-B785-4E7152E057AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D05B7E6-CF48-4B44-B785-4E7152E057AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D05B7E6-CF48-4B44-B785-4E7152E057AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D05B7E6-CF48-4B44-B785-4E7152E057AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA32D80-C003-4CF1-A520-4475A67481DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA32D80-C003-4CF1-A520-4475A67481DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA32D80-C003-4CF1-A520-4475A67481DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA32D80-C003-4CF1-A520-4475A67481DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D6188C-5F7A-4CD1-B1AB-2BCC8B174C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D6188C-5F7A-4CD1-B1AB-2BCC8B174C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D6188C-5F7A-4CD1-B1AB-2BCC8B174C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D6188C-5F7A-4CD1-B1AB-2BCC8B174C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF55195B-ADCA-4DD4-8293-4F529888BED1}
+	EndGlobalSection
+EndGlobal
