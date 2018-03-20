@@ -32,8 +32,11 @@ function solve(args) {
     }
 
     //TODO:checking if princess is caught
-    function isCaught(charPossR,CharPossC) {
+    function isCaught(princessPossR,princessPossC, trollPossR,trollPossC) {
 
+        if (princessPossR === trollPossR) {
+            
+        }
     }
     //TODO:checking if princess is saved
 
@@ -131,13 +134,13 @@ solve([
     'mv Wboup d',
     'mv Wboup d'
 ]);
-//matrix 5x5
-var items = [
-    [0, 1, 2, 3, 4],
-    [5, 6, 7, 8, 9],
-    [10, 11, 12, 13, 14],
-    [15, 16, 17, 18, 19],
-    [20, 21, 22, 23, 24]
-];
-    // console.log(items[1][1]); // 1
-    // console.log(items);
+// //matrix 5x5
+// var items = [
+//     [0, 1, 2, 3, 4],
+//     [5, 6, 7, 8, 9],
+//     [10, 11, 12, 13, 14],
+//     [15, 16, 17, 18, 19],
+//     [20, 21, 22, 23, 24]
+// ];
+//     // console.log(items[1][1]); // 1
+//     // console.log(items);
